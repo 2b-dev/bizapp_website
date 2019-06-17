@@ -1,0 +1,24 @@
+{
+  "name": "bizapp",
+  "version": "1.0.0",
+  "description": "bizapp",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2b-dev/bizapp_website.git"
+  },
+  "author": "Nu Chaimongkon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2b-dev/bizapp_website/issues"
+  },
+  "homepage": "https://github.com/2b-dev/bizapp_website#readme",
+  "dependencies": {
+    "mdbootstrap": "^4.8.2",
+    "owl.carousel": "^2.3.4",
+    "sweetalert2": "^8.12.1"
+  }
+}
