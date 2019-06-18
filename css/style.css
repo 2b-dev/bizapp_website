@@ -131,6 +131,9 @@
 .fs-13 {
   font-size: 13px;
 }
+.bg-dfdee1{
+  background-color: #dfdee1;
+}
 .navbar2{
   background-color: transparent;
   background-image: url('../images/nav_menu/bg_nav.jpg');
@@ -268,4 +271,7 @@
   background-size: 16px;
   background-color: #ffffff;
   border: none;
+}
+.arrow-carousel{
+  width: 40px;
 }
