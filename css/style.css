@@ -275,3 +275,20 @@
 .arrow-carousel{
   width: 40px;
 }
+.side-main{
+  width: 320px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.card-bizapp{
+  border: 1px solid #999999;
+  padding: 15px;
+  border-radius: 10px;
+}
+.p-title-card-bizapp{
+  font-size: 26px;
+  line-height: 20px;
+}
