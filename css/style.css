@@ -297,6 +297,7 @@
   -moz-box-shadow: inset 0px 0px 4px 0px rgba(193, 192, 192, 0.3);
   box-shadow: inset 0px 0px 4px 0px rgba(193, 192, 192, 0.3);
   margin-bottom: 1rem;
+  background-color: #ffffff;
 }
 .p-title-card-bizapp {
   font-size: 26px;
@@ -498,6 +499,8 @@ img.arrow-calendar{
   background-size: 100% 100%;
   padding-left: 5px;
   padding-right: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .btn-arrow-control{
@@ -560,4 +563,17 @@ img.arrow-calendar{
   position: absolute;
   top: 0;
   right: 100%;
+}
+.card-bizapp-main-body{
+  width: 100%;
+  padding: 15px;
+  margin-top: 0.3rem;
+}
+.card-bizapp-main-sup{
+  border-radius: 10px;
+  border: 1px solid #c1c0c0;
+  -webkit-box-shadow: inset 0px 0px 4px 0px rgba(193, 192, 192, 0.3);
+  -moz-box-shadow: inset 0px 0px 4px 0px rgba(193, 192, 192, 0.3);
+  box-shadow: inset 0px 0px 4px 0px rgba(193, 192, 192, 0.3);
+  padding: 15px;
 }
