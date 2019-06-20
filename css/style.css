@@ -281,6 +281,7 @@
 .main-container {
   position: relative;
   width: 100%;
+  padding-right: 345px;
 }
 .side-main {
   width: 330px;
@@ -469,4 +470,94 @@ img.arrow-calendar{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.card-bizapp-main {
+  border: 1px solid #999999;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0px 0px 4px 0px rgba(193, 192, 192, 0.3);
+  -moz-box-shadow: inset 0px 0px 4px 0px rgba(193, 192, 192, 0.3);
+  box-shadow: inset 0px 0px 4px 0px rgba(193, 192, 192, 0.3);
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+}
+.card-head-bizapp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.div-control-bizapp-main{
+  border-radius: 15px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  background-image: url('../images/bg-arrow-control.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-left: 5px;
+  padding-right: 0;
+}
+
+.btn-arrow-control{
+  padding: 0;
+  background-color: transparent;
+  box-shadow: none;
+  -ms-box-shadow: none;
+  -webkit-box-shadow: none;
+  border-radius: 50%;
+  width: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.img-arrow-control{
+  max-width: 100%;
+}
+.btn-seeall-control{
+  background-color: transparent;
+  background-image: url('../images/bg-btn-control.png');
+  box-shadow: none;
+  -ms-box-shadow: none;
+  -webkit-box-shadow: none;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 15px;
+}
+.btn-seeall-control:hover{
+  color: #ffffff;
+}
+.div-title-bizapp-main{
+  width: 400px;
+  background-repeat: no-repeat;
+  background-image: url('../images/bg-title-bizapp-main.png');
+  border-top-left-radius: 10px;
+  background-size: auto 100%;
+  height: 40px;
+  padding-left: 35px;
+  display: flex;
+  align-items: center;
+}
+.title-bizapp-main{
+  font-size: 26px;
+  line-height: 26px;
+  color: #ffffff;
+  position: relative;
+}
+.title-bizapp-main::before{
+  position: absolute;
+  top: 0;
+  right: 100%;
 }
