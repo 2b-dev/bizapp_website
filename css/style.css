@@ -597,6 +597,52 @@ img.arrow-calendar {
   height: 75px;
   padding-left: 33%;
 }
+.tooltip-user-activitie{
+  width: 90%;
+  padding-left: 40%;
+  padding-top: 8%;
+  height: 67px;
+}
+.tooltip-user-activitie.tooltip-user-activitie2{
+  height: 80px;
+}
+.first-page-border{
+  border: 2px solid #870087!important;
+  font-size: 22px;
+  color: #870087!important;
+  border-top-left-radius: 15px!important;
+  border-bottom-left-radius: 15px!important;
+}
+.last-page-border{
+  border: 2px solid #870087!important;
+  font-size: 22px;
+  color: #870087!important;
+  border-top-right-radius: 15px!important;
+  border-bottom-right-radius: 15px!important;
+}
+.page-border{
+  border: 2px solid #870087!important;
+  font-size: 22px;
+  color: #870087!important;
+}
+.pagination .page-item.active .page-link{
+  background-color: #870087;
+  color: #ffffff!important;
+}
+.tooltip-user-profile.tooltip-user-profile-activitie{
+  top: 4%;
+  left: 8.5%;
+  width: 24%;
+}
+.title-activitie{
+  font-size: 26px;
+  line-height: 26px;
+}
+.text-activitie{
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 0;
+}
 .tooltip-user-profile {
   position: absolute;
   top: 5px;
@@ -1014,6 +1060,20 @@ img.arrow-calendar {
   display: flex;
   align-items: center;
 }
+.btn-filter{
+  padding: 0;
+  box-shadow: none;
+  -ms-box-shadow: none;
+  -webkit-box-shadow: none;
+  text-align: center;
+  margin-left: 10px;
+}
+.img-filter{
+  width: 30px;
+}
+.card-img-hr{
+  border-bottom: 5px solid #680a6b;
+}
 @media (max-width: 575px) {
 }
 
@@ -1038,6 +1098,12 @@ img.arrow-calendar {
   }
   .div-contact-otherlink{
     justify-content: center;
+  }
+  .tooltip-user-activitie{
+    width: 55%;
+    padding-left: 22%;
+    padding-top: 5%;
+    height: 69px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
