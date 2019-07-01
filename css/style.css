@@ -1036,8 +1036,14 @@ img.arrow-calendar {
     width: 61%;
     padding-left: 25%;
   }
+  .div-contact-otherlink{
+    justify-content: center;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+  .div-contact-otherlink{
+    justify-content: center;
+  }
 }
 @media (max-width: 991px) {
   .navbar1,
