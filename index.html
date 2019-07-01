@@ -18,7 +18,7 @@
 <body class="bg-dfdee1">
     <header>
         <div class="container">
-            <nav class="navbar shadow-none bg-white navbar-expand-lg">
+            <nav class="navbar shadow-none navbar1 bg-white navbar-expand-lg">
                 <div class="box-fast-call">
                     <img src="./images/fastcall/icon-humam-sound.png" class="icon-humam-sound">
                     <span class="text-fast-call">สายด่วน</span>
@@ -114,6 +114,92 @@
                 </div>
             </nav>
         </div>
+        <nav class="navbar shadow-none navbar-mobile navbar-expand-lg">
+            <div class="">
+                <button class="navbar-toggler first-button" type="button" data-toggle="collapse"
+                    data-target="#menu_mobile" aria-controls="menu_mobile" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <div class="animated-icon1"><span></span><span></span><span></span></div>
+                </button>
+            </div>
+            <div class="text-center">
+                <img src="./images/logo_nav_mobile.png" class="logo_nav_mobile">
+            </div>
+            <div class="d-contain-mobile-right">
+                <div class="box-mobile-right">
+                    <button class="btn btn-search-mobile" data-toggle="collapse" data-target="#search_mobile"
+                        aria-controls="search_mobile" aria-expanded="false">
+                        <img src="./images/icon_search_input_mobile.png" class="img-search-mobile">
+                    </button>
+                </div>
+                <div class="box-mobile-right">
+                    <button class="btn btn-search-mobile">
+                        <img src="./images/icon_setting_mobile.png" class="img-search-mobile">
+                    </button>
+                </div>
+                <div class="box-mobile-right">
+                    <a class="btn btn-user-mobile" id="user_mobile" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        <img src="./images/nav_menu/user_img.png" class="img-user-mobile">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="user_mobile">
+                        <a class="dropdown-item" href="#">โปรไฟล์</a>
+                        <a class="dropdown-item" href="#">เมนู 2</a>
+                        <a class="dropdown-item" href="#">ออกจากระบบ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="menu_mobile">
+                <ul class="navbar-nav navbar-nav-mobile">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ระบบงาน</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ปฏิทินกรม</a>
+                    </li>
+                    <li class="nav-item have-hr">
+                        <a class="nav-link" href="#">ดาวน์โหลด</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">องค์ความรู้</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">โครงสร้าง กสอ.</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">คำถามที่พบบ่อย</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav navbar-nav-mobile navbar-nav-mobile2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ภารกิจผู้บริหาร</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">E-Book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">สำรวจความคิดเห็น</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">แอพลิเคชั่น</a>
+                    </li>
+                    <li class="nav-item bg-6b1c6f">
+                        <a class="nav-link" id="change_lang" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <img src="./images/nav_menu/thai_lang.png" class="icon-lang">ภาษาไทย <i
+                                class="fas fa-angle-down fs-13"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-left w-100" aria-labelledby="change_lang">
+                            <a class="dropdown-item" href="#">ภาษาไทย</a>
+                            <a class="dropdown-item" href="#">English</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="search_mobile">
+                <input class="form-control input-search-nav2 w-100" placeholder="ค้นหา">
+            </div>
+        </nav>
     </header>
     <main>
         <section class="section-carousel mb-3">
@@ -978,6 +1064,7 @@
 <script type="text/javascript" src="./node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 <script type="text/javascript" src="./node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="./js/nav_mobile.js"></script>
 
 <script>
     new WOW().init();
