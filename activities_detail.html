@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BizApp</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="./node_modules/mdbootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./node_modules/mdbootstrap/css/mdb.min.css" rel="stylesheet">
+    <link href="./node_modules/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="./node_modules/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body class="bg-dfdee1">
+    <header>
+        <div class="container">
+            <nav class="navbar shadow-none navbar1 bg-white navbar-expand-lg">
+                <div class="box-fast-call">
+                    <img src="./images/fastcall/icon-humam-sound.png" class="icon-humam-sound">
+                    <span class="text-fast-call">สายด่วน</span>
+                    <img src="./images/fastcall/icon-phone.png" class="icon-phone">
+                    <span class="num-fast-call">1358</span>
+                </div>
+                <div class="box-marquee-text">
+                    <span class="head-announce">ประกาศ</span>
+                </div>
+                <div class="box-for-marquee">
+                    <marquee class="text-marquee">กสอ. เดินหน้าผลักดันแผนพัฒนา.........................</marquee>
+                </div>
+                <div class="box-menu">
+                    <ul class="nav-menu">
+                        <li class="li-nav-menu">
+                            <a class="link-nav-menu" id="user_1" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Welcome <span class="text-username">ศศิพร มันทิตา</span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="user_1">
+                                <a class="dropdown-item" href="#">โปรไฟล์</a>
+                                <a class="dropdown-item" href="#">เมนู 2</a>
+                                <a class="dropdown-item" href="#">ออกจากระบบ</a>
+                            </div>
+                        </li>
+                        <li class="li-nav-menu">
+                            <a href="" class="link-nav-menu">
+                                โครงสร้าง กสอ.
+                            </a>
+                        </li>
+                        <li class="li-nav-menu">
+                            <a href="" class="link-nav-menu">
+                                คำถามที่พบบ่อย
+                            </a>
+                        </li>
+                        <li class="li-nav-menu">
+                            <a class="link-nav-menu" id="change_lang" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <img src="./images/nav_menu/thai_lang.png" class="icon-lang">ภาษาไทย <i
+                                    class="fas fa-angle-down fs-13"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="change_lang">
+                                <a class="dropdown-item" href="#">ภาษาไทย</a>
+                                <a class="dropdown-item" href="#">English</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar shadow-none navbar2 navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./images/nav_menu/logo_bizapp.png" alt="BizApp" class="logo_nav2">
+                </a>
+                <button class="btn btn-worksystem">ระบบงาน</button>
+                <ul class="ul-nav2">
+                    <li class="li-nav2">
+                        <a href="#" class="link-nav2">
+                            <img src="./images/nav_menu/li-calendar.png" class="icon-li-nav2">
+                        </a>
+                        <a href="#" class="link-nav2">
+                            <img src="./images/nav_menu/li-download.png" class="icon-li-nav2">
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="box-search">
+                    <div class="box-menu">
+                        <ul class="ul-nav2 ul-nav2-bg">
+                            <li class="li-nav2">
+                                <a href="#" class="link-nav2">
+                                    <img src="./images/nav_menu/li-mail.png" class="icon-li-nav2">
+                                </a>
+                                <a href="#" class="link-nav2">
+                                    <img src="./images/nav_menu/li-bookphone.png" class="icon-li-nav2">
+                                </a>
+                                <a href="#" class="link-nav2">
+                                    <img src="./images/nav_menu/li-bus.png" class="icon-li-nav2">
+                                </a>
+                                <a href="#" class="link-nav2">
+                                    <img src="./images/nav_menu/li-people.png" class="icon-li-nav2">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="div-search">
+                        <div class="box-user">
+                            <img src="./images/nav_menu/user_img.png" class="user_img">
+                        </div>
+                    </div>
+                    <div class="div-input-search">
+                        <input class="form-control input-search-nav2" placeholder="ค้นหา">
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <nav class="navbar shadow-none navbar-mobile navbar-expand-lg">
+            <div class="">
+                <button class="navbar-toggler first-button" type="button" data-toggle="collapse"
+                    data-target="#menu_mobile" aria-controls="menu_mobile" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <div class="animated-icon1"><span></span><span></span><span></span></div>
+                </button>
+            </div>
+            <div class="text-center">
+                <img src="./images/logo_nav_mobile.png" class="logo_nav_mobile">
+            </div>
+            <div class="d-contain-mobile-right">
+                <div class="box-mobile-right">
+                    <button class="btn btn-search-mobile" data-toggle="collapse" data-target="#search_mobile"
+                        aria-controls="search_mobile" aria-expanded="false">
+                        <img src="./images/icon_search_input_mobile.png" class="img-search-mobile">
+                    </button>
+                </div>
+                <div class="box-mobile-right">
+                    <button class="btn btn-search-mobile">
+                        <img src="./images/icon_setting_mobile.png" class="img-search-mobile">
+                    </button>
+                </div>
+                <div class="box-mobile-right">
+                    <a class="btn btn-user-mobile" id="user_mobile" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        <img src="./images/nav_menu/user_img.png" class="img-user-mobile">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="user_mobile">
+                        <a class="dropdown-item" href="#">โปรไฟล์</a>
+                        <a class="dropdown-item" href="#">เมนู 2</a>
+                        <a class="dropdown-item" href="#">ออกจากระบบ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="menu_mobile">
+                <ul class="navbar-nav navbar-nav-mobile">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ระบบงาน</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ปฏิทินกรม</a>
+                    </li>
+                    <li class="nav-item have-hr">
+                        <a class="nav-link" href="#">ดาวน์โหลด</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">องค์ความรู้</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">โครงสร้าง กสอ.</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">คำถามที่พบบ่อย</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav navbar-nav-mobile navbar-nav-mobile2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ภารกิจผู้บริหาร</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">E-Book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">สำรวจความคิดเห็น</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">แอพลิเคชั่น</a>
+                    </li>
+                    <li class="nav-item bg-6b1c6f">
+                        <a class="nav-link" id="change_lang" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <img src="./images/nav_menu/thai_lang.png" class="icon-lang">ภาษาไทย <i
+                                class="fas fa-angle-down fs-13"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-left w-100 text-center" aria-labelledby="change_lang">
+                            <a class="dropdown-item" href="#">ภาษาไทย</a>
+                            <a class="dropdown-item" href="#">English</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="search_mobile">
+                <input class="form-control input-search-nav2 w-100" placeholder="ค้นหา">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container py-3">
+            <section>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card-bizapp-main">
+                            <div class="card-head-bizapp">
+                                <div class="div-title-bizapp-main">
+                                    <span class="title-bizapp-main">ข่าวสาร-บทความ</span>
+                                </div>
+                            </div>
+                            <div class="card-bizapp-main-body">
+                                <div class="main-contain-news">
+                                    <div class="main-news-detail">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <p class="title-news-detial">
+                                                    ศส.กสอ.จัดประชุมรายงานความคืบหน้าในการดำเนินงานและการใช้ระบบ Self
+                                                    Declare</p>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row justify-content-end">
+                                                    <div class="col-12 col-md-8 col-lg-8">
+                                                        <div class="row">
+                                                            <div class="col-12 col-md-4 col-lg-4">
+                                                                <div class="tooltip-user tooltip-user-news">
+                                                                    <div
+                                                                        class="tooltip-user-profile tooltip-user-profile-news">
+                                                                        <img src="./images/nav_menu/user_img.png"
+                                                                            class="img-fluid">
+                                                                    </div>
+                                                                    <p class="text-name-tooltip">Siriton.</p>
+                                                                </div>
+
+                                                            </div>
+                                                            <div
+                                                                class="col-12 col-md-8 col-lg-8 d-flex align-items-center">
+                                                                <p class="date-time-news mb-0"><img
+                                                                        src="./images/calendar-news.png"
+                                                                        class="img-calendar-news"><span>9 เมษายน
+                                                                        2562</span></p>
+                                                                <p class="date-time-news mb-0"><img
+                                                                        src="./images/time-news.png"
+                                                                        class="img-time-news"><span>12:32</span></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-7 col-md-4 col-lg-4 text-right">
+                                                        <div class="div-control-bizapp-main d-inline-flex">
+                                                            <button class="btn btn-view">
+                                                                <i class="far fa-eye mr-2 c-870087"></i>45
+                                                            </button>
+                                                            <a href="#" class="btn btn-seeall-control c-faff00"><i
+                                                                    class="fas fa-star c-faff00 mr-2"></i>13</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="slider-for">
+                                                    <div>
+                                                        <img src="./images/img-slide-news.png" class="img-fluid w-100">
+                                                    </div>
+                                                    <div>
+                                                        <img src="./images/img-slide-news2.png" class="img-fluid w-100">
+                                                    </div>
+                                                    <div>
+                                                        <img src="./images/img-slide-news3.png" class="img-fluid w-100">
+                                                    </div>
+                                                    <div>
+                                                        <img src="./images/img-slide-news4.png" class="img-fluid w-100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 mt-2 d-none d-md-block">
+                                                <div class="row">
+                                                    <div class="col-12 d-flex">
+                                                        <div class="div-arrow-slider">
+                                                            <button id="slide-pre" class="btn btn-arrow-slider">
+                                                                <img src="./images/btn_slide_left.png"
+                                                                    class="img-btn-slider">
+                                                            </button>
+                                                        </div>
+                                                        <div class="div-thumb-slider">
+                                                            <div class="slider slider-nav">
+                                                                <div class="mx-2 nav-slider">
+                                                                    <img src="./images/img-slide-news.png"
+                                                                        class="img-fluid w-100">
+                                                                    <div class="for-overlay-slider"></div>
+                                                                </div>
+                                                                <div class="mx-2 nav-slider">
+                                                                    <img src="./images/img-slide-news2.png"
+                                                                        class="img-fluid w-100">
+                                                                    <div class="for-overlay-slider"></div>
+                                                                </div>
+                                                                <div class="mx-2 nav-slider">
+                                                                    <img src="./images/img-slide-news3.png"
+                                                                        class="img-fluid w-100">
+                                                                    <div class="for-overlay-slider"></div>
+                                                                </div>
+                                                                <div class="mx-2 nav-slider">
+                                                                    <img src="./images/img-slide-news4.png"
+                                                                        class="img-fluid w-100">
+                                                                    <div class="for-overlay-slider"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="div-arrow-slider">
+                                                            <button id="slide-next" class="btn btn-arrow-slider">
+                                                                <img src="./images/btn_slide_right.png"
+                                                                    class="img-btn-slider">
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 text-right mt-3">
+                                                <div class="div-control-bizapp-main d-inline-flex">
+                                                    <button class="btn btn-detail-control" data-toggle="tooltip"
+                                                        data-placement="top" title="แนบข้อความ">
+                                                        <img src="./images/text-control.png"
+                                                            class="img-btn-detail-control">
+                                                    </button>
+                                                    <button class="btn btn-detail-control" data-toggle="tooltip"
+                                                        data-placement="top" title="แนบไฟล์">
+                                                        <img src="./images/clip-control.png"
+                                                            class="img-btn-detail-control">
+                                                    </button>
+                                                    <button class="btn btn-detail-control" data-toggle="tooltip"
+                                                        data-placement="top" title="แนบภาพ">
+                                                        <img src="./images/image-control.png"
+                                                            class="img-btn-detail-control">
+                                                    </button>
+                                                    <button class="btn btn-detail-control" data-toggle="tooltip"
+                                                        data-placement="top" title="แนบลิ้งค์">
+                                                        <img src="./images/share-control.png"
+                                                            class="img-btn-detail-control">
+                                                    </button>
+                                                    <a href="#" class="btn btn-send-control">ส่ง</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 mt-3">
+                                                <p class="detail-news-content p-tab">
+                                                    วันที่ 9 เมษายน 2562 รองอธิบดีกรมส่งเสริมอุตสาหกรรม ( นายเดชา
+                                                    จาตุธนานนท์ ) ให้เกียรติเป็นประธานในการจัดการ
+                                                    ประชุมรายงานความคืบหน้าในการดำเนินงานและการใช้งานระบบ Self Declare ณ
+                                                    ห้องประชุม VDO Conference ชั้น 2
+                                                    อาคารกรมส่งเสริมอุตสาหกรรมโดยมีวัตถุประสงค์ของการประชุมในครั้งนี้
+                                                    เพื่อติดตามความคืบหน้า ปัญหาอุปสรรค และรับ
+                                                    ฟังข้อเสนอในการใช้ระบบ Self Declare
+                                                    ซึ่งถือเป็นข้อมูลสำคัญในการปรับปรุงเพื่อพัฒนาระบบฯ
+                                                    ให้มีความสอดคล้องกับการ
+                                                    ดำเนินงาน นำไปสู่การพัฒนาแนวทางและวิธีดำเนินงานที่มีมาตนาฐานยิ่งขึ้น
+                                                    และสามารถใช้เป็นข้อมูลเบื้องต้นในการกำกับ
+                                                    ติดตาม ตรวจสอบการเข้าสถานประกอบ พร้อมรายงานผลผ่านระบบได้โดยตรง
+                                                    ทำให้ผู้บริหารกรมส่งเสริมอุตสาหกรรม และ
+                                                    ผู้บริหารโครงการสามารถรับรู้รับทราบข้อมูลแบบ Real time
+                                                </p>
+                                                <p class="detail-news-content p-tab">
+                                                    โดยการประชุมรายงานความคืบหน้าในการดำเนินงานและการใช้งานระบบฯ
+                                                    ครั้งนี้ มีผู้เข้าร่วมเป็นจำนวน 75 คน มีผู้ให้
+                                                    ข้อเสนอแนะ
+                                                    และสอบถามข้อมูลเพิ่มเติมเกี่ยวกับแนวทางในการใช้งานและประเด็นปัยหาที่พบจากการปฏิบัติงานของที่ปรึกษา
+                                                    ซึ่งเป็นประโยชน์สำหรับใช้เป็นแนวทางในการปรับปรุงเพื่อการพัมนาระบบฯ
+                                                    ให้สอดคล้องกับวัตถุประสงค์ของการดำเนินงาน
+                                                    ต่อไป
+                                                </p>
+                                                <p class="detail-news-content">โดย ศูนย์เทคโนโลยีสารสนเทศและการสื่อสาร
+                                                    กรมส่งเสริมอุตสาหกรรม</p>
+                                            </div>
+                                            <div class="col-12 mt-3">
+                                                <a href="#!" class="btn btn-allactivities">
+                                                    กิจกรรมทั้งหมด
+                                                </a>
+                                            </div>
+                                            <div class="col-12">
+                                                <hr class="hr-bizapp">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="side-news">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <p class="p-title-card-bizapp text-underline c-a717ab">เรื่องอื่นในหมวด
+                                                </p>
+                                            </div>
+                                            <div class="col-12 col-md-4 col-lg-12 mb-3">
+                                                <div class="card-bizapp-sup card-bizapp-sup-news">
+                                                    <div class="card-bizapp-sup-body bg-card-news-side p-2">
+                                                        <div class="row">
+                                                            <div class="col-12 col-md-12 col-lg-6 pr-lg-1">
+                                                                <img src="./images/img-side-news.png"
+                                                                    class="img-fluid w-100 mb-2">
+                                                                <div class="tooltip-user tooltip-user-news-side">
+                                                                    <div
+                                                                        class="tooltip-user-profile tooltip-user-profile-news-side">
+                                                                        <img src="./images/nav_menu/user_img.png"
+                                                                            class="img-fluid">
+                                                                    </div>
+                                                                    <p class="text-name-tooltip">Siriton.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 col-md-12 col-lg-6">
+                                                                <p class="title-news-hilight mb-1">
+                                                                    กสอ. โชว์ของจริงสร้างผลสำเร็จ 3 ชั้นยกระดับ... <a
+                                                                        href="#!"
+                                                                        class="text-link-readmore">ดูเพิ่มเติม</a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-4 col-lg-12 mb-3">
+                                                <div class="card-bizapp-sup card-bizapp-sup-news">
+                                                    <div class="card-bizapp-sup-body bg-card-news-side p-2">
+                                                        <div class="row">
+                                                            <div class="col-12 col-md-12 col-lg-6 pr-lg-1">
+                                                                <img src="./images/img-side-news.png"
+                                                                    class="img-fluid w-100 mb-2">
+                                                                <div class="tooltip-user tooltip-user-news-side">
+                                                                    <div
+                                                                        class="tooltip-user-profile tooltip-user-profile-news-side">
+                                                                        <img src="./images/nav_menu/user_img.png"
+                                                                            class="img-fluid">
+                                                                    </div>
+                                                                    <p class="text-name-tooltip">Siriton.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 col-md-12 col-lg-6">
+                                                                <p class="title-news-hilight mb-1">
+                                                                    กสอ. โชว์ของจริงสร้างผลสำเร็จ 3 ชั้นยกระดับ... <a
+                                                                        href="#!"
+                                                                        class="text-link-readmore">ดูเพิ่มเติม</a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-4 col-lg-12 mb-3">
+                                                <div class="card-bizapp-sup card-bizapp-sup-news">
+                                                    <div class="card-bizapp-sup-body bg-card-news-side p-2">
+                                                        <div class="row">
+                                                            <div class="col-12 col-md-12 col-lg-6 pr-lg-1">
+                                                                <img src="./images/img-side-news.png"
+                                                                    class="img-fluid w-100 mb-2">
+                                                                <div class="tooltip-user tooltip-user-news-side">
+                                                                    <div
+                                                                        class="tooltip-user-profile tooltip-user-profile-news-side">
+                                                                        <img src="./images/nav_menu/user_img.png"
+                                                                            class="img-fluid">
+                                                                    </div>
+                                                                    <p class="text-name-tooltip">Siriton.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 col-md-12 col-lg-6">
+                                                                <p class="title-news-hilight mb-1">
+                                                                    กสอ. โชว์ของจริงสร้างผลสำเร็จ 3 ชั้นยกระดับ... <a
+                                                                        href="#!"
+                                                                        class="text-link-readmore">ดูเพิ่มเติม</a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <hr class="hr-bizapp">
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row justify-content-center">
+                                                    <div class="col-12 col-md-4 col-lg-12 mb-3">
+                                                        <img src="./images/img-banner-ad.png" class="img-fluid w-100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-5">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="./images/logo_nav_mobile.png" alt="BizApp" class="logo-before-social">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <section class="first-footer">
+            <div class="container bg-687588">
+                <div class="row pt-3 pb-2">
+                    <div class="col-6 col-md-6 text-center text-md-left">
+                        <p class="text-bizzapp-footer">กรมส่งเสริมอุตสาหกรรม</p>
+                    </div>
+                    <div class="col-6 col-md-6 text-center text-md-right">
+                        <p class="text-visitor-footer">จำนวนผู้เข้าชม <span class="box-text-visitor"><span
+                                    class="text-num-visitor">2572234</span></span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="second-footer">
+            <div class="container bg-four-corner">
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <ul class="ul-footer-lv-1">
+                            <li class="li-footer-lv-1">ระบบงาน
+                                <ul class="ul-footer-lv-2">
+                                    <li class="li-footer-lv-2">ระบบงานสารบัญอิเล็กทรอนิกส์</li>
+                                    <li class="li-footer-lv-2">ระบบจัดเก็บเอกสารอิเล็กทรอนิกส์</li>
+                                    <li class="li-footer-lv-2">ระบบฐานข้อมูลผู้รับบริการ กสอ.</li>
+                                    <li class="li-footer-lv-2">ระบบแผนงานงบประมาณประจำปี</li>
+                                    <li class="li-footer-lv-2">ระบบบันทึกผลงานผู้รับจ้าง</li>
+                                    <li class="li-footer-lv-2">ระบบบริหารการจัดการโครงการ</li>
+                                    <li class="li-footer-lv-2">ระบบทะเบียนสินทรัพย์</li>
+                                    <li class="li-footer-lv-2">ระบบเตือนภัย</li>
+                                    <li class="li-footer-lv-2">ระบบ Warning Report เงินทุนหมุนเวียน</li>
+                                </ul>
+                            </li>
+                            <li class="li-footer-lv-1">ปฏิทินกรม</li>
+                            <li class="li-footer-lv-1">ดาวน์โหลด</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <ul class="ul-footer-lv-1">
+                            <li class="li-footer-lv-1">เครื่องมือผู้ใช้งาน
+                                <ul class="ul-footer-lv-2">
+                                    <li class="li-footer-lv-2">อีเมล</li>
+                                    <li class="li-footer-lv-2">สมุดโทรศัพท์</li>
+                                    <li class="li-footer-lv-2">จองยานพาหนะ</li>
+                                    <li class="li-footer-lv-2">จองห้องประชุม</li>
+                                </ul>
+                            </li>
+                            <li class="li-footer-lv-1">ประชาสัมพันธ์</li>
+                            <li class="li-footer-lv-1">กิจกรรม</li>
+                            <li class="li-footer-lv-1">องค์ความรู้</li>
+                            <li class="li-footer-lv-1">วีดีโอแนะนำ</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-right pr-md-5">
+                        <ul class="ul-footer-lv-1">
+                            <li class="li-footer-lv-1 c-b51cb9">บัญชีผู้ใช้งาน</li>
+                            <li class="li-footer-lv-1">ภารกิจผู้บริหาร</li>
+                            <li class="li-footer-lv-1">E - book</li>
+                            <li class="li-footer-lv-1">สำรวจความคิดเห็น</li>
+                            <li class="li-footer-lv-1">แอพลิเคชั่น</li>
+                            <li class="li-footer-lv-1">โครงการ กสอ.</li>
+                            <li class="li-footer-lv-1">คำถามที่พบบ่อย</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="third-footer">
+            <div class="container bg-third-footer">
+                <div class="row py-3">
+                    <div class="col-12 col-md-6 col-lg-4 mb-3 text-center text-md-left">
+                        <img src="./images/logo_footer.png" class="logo_footer">
+                        <p class="title-footer">
+                            กรมส่งเสริมอุตสาหกรรม
+                        </p>
+                        <p class="text-address-footer">
+                            75/6 ถนนพระรามที่ 6 ราชวิถี กรุงเทพณ 10400
+                        </p>
+                        <p class="text-address-footer">โทร. 02-202-4414-18</p>
+                        <p class="text-address-footer">แฟกซ์ 02-354-3299</p>
+                    </div>
+                    <div
+                        class="col-12 col-md-6 col-lg-4 mb-3 text-center d-flex justify-content-center align-items-center">
+                        <div class="box-fast-call m-auto">
+                            <span class="text-fast-call c-ffffff">สายด่วน</span>
+                            <img src="./images/icon-phone-footer.png" class="icon-phone">
+                            <span class="num-fast-call c-ffffff">1358</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mb-3 text-center text-md-right">
+                        <div class="div-contact-otherlink">
+                            <div class="div-contact">
+                                <img src="./images/contact-footer.png" class="contact-footer">
+                                <p class="text-contact-footer">ติดต่อสอบถาม</p>
+                            </div>
+                            <div class="div-otherlink">
+                                <p class="text-otherlink">เว็บไซต์ภายใต้กรม</p>
+                                <select class="browser-default custom-select select-bizapp">
+                                    <option selected>...เว็บไซต์ภายใต้กรม...</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+<script type="text/javascript" src="./node_modules/mdbootstrap/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="./node_modules/mdbootstrap/js/popper.min.js"></script>
+<script type="text/javascript" src="./node_modules/mdbootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./node_modules/mdbootstrap/js/mdb.min.js"></script>
+<script type="text/javascript" src="./node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+<script type="text/javascript" src="./node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript" src="./js/nav_mobile.js"></script>
+
+<script>
+    new WOW().init();
+    $('.slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.slider-nav'
+    });
+    $('.slider-nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for',
+        dots: false,
+        centerMode: true,
+        focusOnSelect: true,
+        arrows: false,
+    });
+    $('a[data-slide]').click(function (e) {
+        e.preventDefault();
+        var slideno = $(this).data('slide');
+        $('.slider-nav').slick('slickGoTo', slideno - 1);
+    });
+    $('#slide-pre').click(function () {
+        $('.slider-nav').slick('slickPrev');
+    })
+
+    $('#slide-next').click(function () {
+        $('.slider-nav').slick('slickNext');
+    })
+    $('[data-toggle="tooltip"]').tooltip();
+</script>
+
+</html>
